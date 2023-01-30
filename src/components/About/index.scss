@@ -12,9 +12,11 @@
 }
 
 .stage-cube-cont {
-  width: 20%;
-  height: 50%;
+  padding-top: 40px;
+  width: 300px;
+  height: 300px;
   position: relative;
+  overflow: hidden;
 }
 
 .cubespinner {
@@ -122,6 +124,7 @@
 }
 
 p {
+  margin-top: 20px;
   font-size: 15px;
   color: #fff;
   font-family: sans-serif;
