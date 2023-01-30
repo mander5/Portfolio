@@ -1,0 +1,40 @@
+nav {
+  z-index: 50;
+  position: sticky;
+  top: 0;
+  background-color: rgba(51, 51, 51, 0.966);
+}
+
+nav .navbar {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px;
+}
+
+nav .navbar ul {
+  list-style: none;
+}
+
+nav .navbar ul li {
+  display: inline-block;
+}
+
+nav .navbar ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+
+nav .navbar ul li a.active {
+  background-color: rgb(53, 53, 53);
+  transition: background-color 0.8s ease;
+  // transition: color 0.8s ease;
+  color: #ffd700;
+}
+
+html {
+  scroll-behavior: smooth;
+}

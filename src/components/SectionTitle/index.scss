@@ -1,0 +1,55 @@
+@media (max-width: 1000px) {
+  .section-titlepage {
+    justify-content: center;
+  }
+}
+
+.section-titlepage {
+  width: 100%;
+  display: grid;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.portfolio {
+  width: 300px;
+  position: relative;
+  //   font-weight: 400;
+  font-size: 35px;
+  color: #ffd700;
+
+  &::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    color: #b4b4b4;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -10px;
+    left: -10px;
+    line-height: 18px;
+    opacity: 0.6;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  &::after {
+    content: '</h1>';
+    font-family: 'La Belle Aurore';
+    color: #b4b4b4;
+    font-size: 18px;
+    position: absolute;
+    line-height: 18px;
+    left: -30px;
+    bottom: -20px;
+    margin-left: 14px;
+    opacity: 0.6;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+}
+
+@media (min-width: 1000px) {
+  .portfolio {
+    width: 500px;
+    font-size: 50px;
+    left: 20%;
+  }
+}

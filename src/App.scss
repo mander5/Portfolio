@@ -1,0 +1,57 @@
+$primary-color: #ff0000;
+
+@import 'animate.css';
+
+@font-face {
+  font-family: 'Helvetica Neue';
+  src: url('./assets/fonts/helvetica-neue.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'La Belle Aurore';
+  src: url('./assets/fonts/LaBelleAurore.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/coolvetica_rg.ttf') format('ttf');
+}
+
+input,
+textarea {
+  font-family: 'Coolvetica';
+  src: url('./assets/fonts/coolvetica_rg.ttf') format('ttf');
+}
+
+body {
+  margin: 0;
+  // font: 300 11px/1.4 'Helvetica', 'sans-serif';
+  color: #444;
+  background: #011016;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.h1tag {
+  &::before {
+    content: '<h1>';
+    font-family: 'La Belle Aurore';
+    color: #b4b4b4;
+    font-size: 18px;
+    position: absolute;
+    margin-top: -10px;
+    left: -30px;
+    opacity: 0.6;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+
+  &::after {
+    content: '</h1>';
+    font-family: 'La Belle Aurore';
+    color: #b4b4b4;
+    font-size: 18px;
+    position: absolute;
+    opacity: 0.6;
+    animation: fadeIn 1s 1.8s backwards;
+  }
+}

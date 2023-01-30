@@ -1,0 +1,15 @@
+.logo-zone {
+  svg {
+    width: 300px;
+    height: auto;
+    // overflow: hidden;
+    transform: rotateZ(30deg) !important;
+  }
+}
+@media (min-width: 1000px) {
+  .logo-zone {
+    svg {
+      width: 600px;
+    }
+  }
+}
