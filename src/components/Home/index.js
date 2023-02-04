@@ -65,9 +65,9 @@ const Home = () => {
         <div className="logo-zone">
           <Logo />
         </div>
-        <div class="container">
-          <div class="field">
-            <div class="scroll"></div>
+        <div className="container">
+          <div className="field">
+            <div className="scroll"></div>
           </div>
         </div>
       </div>
