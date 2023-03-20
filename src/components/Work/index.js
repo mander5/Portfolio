@@ -1,5 +1,6 @@
 import './index.scss'
 import LDNsportsocial from '../../assets/images/LDNsportsocial.png'
+import chatgpt from '../../assets/images/chatgpt.png'
 import pokegame from '../../assets/images/pokegame.png'
 import forkify from '../../assets/images/forkify-home.png'
 import JCGOL from '../../assets/images/JCGOL.png'
@@ -31,6 +32,26 @@ const Work = () => {
               <div class="caption">
                 A sports marketing startup's webpage I designed and built, using
                 Figma for the wireframe and React.js for developement
+              </div>
+            </div>
+          </a>
+        </div>
+        <div className="picture">
+          <img className="image image1" src={chatgpt} alt="gpt"></img>
+          <a
+            href="https://mander5-gpt3-clone.netlify.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <div class="overlay">
+              <div className="icon">
+                <FontAwesomeIcon icon={faReact} color="#5ED4F4" />
+                <FontAwesomeIcon icon={faHtml5} color="#F06529" />
+                <FontAwesomeIcon icon={faCss3} color="#28A4D9" />
+              </div>
+              <div class="caption">
+                A clone of the Chat-GPT3 website made from a Figma design by AR
+                Shakir
               </div>
             </div>
           </a>

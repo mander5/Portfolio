@@ -2,7 +2,7 @@ nav {
   z-index: 50;
   position: sticky;
   top: 0;
-  background-color: rgba(51, 51, 51, 0.966);
+  background-color: #011016;
 }
 
 nav .navbar {
@@ -29,7 +29,7 @@ nav .navbar ul li a {
 }
 
 nav .navbar ul li a.active {
-  background-color: rgb(53, 53, 53);
+  background-color: #011016;
   transition: background-color 0.8s ease;
   // transition: color 0.8s ease;
   color: #ffd700;
