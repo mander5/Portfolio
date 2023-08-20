@@ -19,7 +19,7 @@ const Work = () => {
         <div className="picture">
           <img className="image image1" src={LDNsportsocial} alt="ldn"></img>
           <a
-            href="https://ldnsportsocial.netlify.app/"
+            href="https://ldnsportsocial.com"
             target="_blank"
             rel="noopener noreferrer"
           >
